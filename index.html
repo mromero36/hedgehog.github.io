@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+       <meta charset="utf-8"/>
+       <title>The Hedgehog 🦔</title>
+       <link href="styles/style.css" rel="stylesheet" type="text/css">
+       <link href="https://fonts.googleapis.com/css2?family=Open+Sans" rel="stylesheet" type="text/css"> 
+    </head>
+
+    <body>
+        <h1>El Erizo Pigmeo Africano</h1>
+        <img src="images/erizo-pigmeo.jpg" alt="erizo serio" id="imagen-1" onmouseover="cambiarImagen(this)" data-imagen2="images/erizo-pigmeo-happy.jpg"/>
+        
+
+        <p>El <strong>erizo pigmeo africano</strong> o <strong>erizo enano africano</strong> 
+        <em>(Atelerix albiventris x Atelerix algirus)</em> es un híbrido entre dos especies del género Atelerix.</p>
+        <p>Este junto con el <a href="https://reinoanimalia.fandom.com/es/wiki/Erizo_Egipcio">erizo egipcio</a>
+        <em>(Hemiechinus auritus)</em> son los únicos que son vendidos legalmente como mascotas.</p>
+
+        <nav>
+            <ul class="menu">
+                <li class="lista"><a class="opcion" href="#seccion-1" data-section="seccion-1">Características físicas</a></li>
+                <li class="lista"><a class="opcion" href="#seccion-2" data-section="seccion-2">Consigue tu Erizo</a></li>
+            </ul>
+        </nav>
+        
+        <section id="seccion-1" class="hidden">
+        <h2>Características Físicas</h2>
+        <p>Estas son algunas de las características más representativas de un erizo pigmeo</p>
+        <ul>
+            <li>Tamaño: entre 15 y 25 cm de longitud (las hembras generalmente son más grandes que los machos)</li>
+            <li>Peso: entre 350 y 750 gramos</li>
+            <li>Rasgos: patas cortas, nariz alargada y ojos pequeños</li>
+            <li>Color: puede variar mucho, sin embargo los más comunes son el marrón o gris, con espinas blancas o crema. Su rostro generalmente
+            presenta una coloración mas oscura, gris o negro, o del mismo color que su parte inferior (generalmente blanco)</li>
+        </ul>
+        </section>
+        
+        <section id="seccion-2" class="hidden">
+        <div class="tu-erizo">
+        <p class="subtitulo"><strong>Ahora, ¿Te conseguimos tu propio erizo?</strong></p>
+        <p>Puedes elegir entre 3 variantes distinas: el erizo común, el erizo blanco y el erizo albino</p>
+
+        <div style="height: 380px;"><img src="images/¡ELIGE TU ERIZO!.jpg" alt="Elige una variante de erizo" id="variantes"/></div>
+        <h2 id="nombre" class="nombre">Su nombre es...</h2>
+        <p>Pero algo es muy importante, ¿Cómo lo vas a llamar?</p> 
+        <button>Nombrar tu Erizo</button>
+        </div>
+        </section>
+
+        <script src="scripts/main.js"></script>
+    </body>
+    
+</html>
