@@ -58,3 +58,11 @@ Variantes.onclick = function(){
     }
 }
 
+let botonVolverArriba = document.getElementById('volver-arriba');
+
+botonVolverArriba.addEventListener('click', function() {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+});
